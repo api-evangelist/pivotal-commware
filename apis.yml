@@ -1,9 +1,26 @@
 aid: pivotal-commware
 name: Pivotal Commware
-description: 'Pivotal Commware is a company surfaced as a portfolio company of lux-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: telecom. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Pivotal Commware develops millimeter wave (mmWave) infrastructure for 5G networks, built
+  around its Holographic Beam Forming technology and what it calls the world''s first smart repeater
+  ecosystem. Its product line includes WaveScape network-planning software, the Pivot 5G outdoor network
+  repeater, the Echo 5G subscriber repeater for indoor mmWave coverage, and IBMS, an Intelligent Beam
+  Management System that pairs machine learning with smart repeaters for real-time network optimization.
+  The company is venture-backed by Lux Capital. As of this enrichment pass Pivotal Commware publishes a
+  corporate and marketing site (datasheets, white papers, videos, and a blog) but no public developer
+  portal, API, or SDK surface was found.'
 url: https://raw.githubusercontent.com/api-evangelist/pivotal-commware/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://pivotalcommware.com/wp-content/uploads/2021/03/pivotal-logo.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Telecom
+- 5G
+- mmWave
+- Wireless
+- Networking
+- Beamforming
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,16 @@ maintainers:
 common:
 - type: Website
   url: https://www.pivotalcommware.com
+- type: Blog
+  url: https://pivotalcommware.com/conversation/
+- type: Support
+  url: https://pivotalcommware.com/contact/
+- type: PrivacyPolicy
+  url: https://pivotalcommware.com/about/privacy-policy/
+- type: DomainSecurity
+  url: security/pivotal-commware-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

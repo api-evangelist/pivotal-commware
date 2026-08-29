@@ -9,6 +9,17 @@ description: 'Pivotal Commware develops millimeter wave (mmWave) infrastructure 
   corporate and marketing site (datasheets, white papers, videos, and a blog) but no public developer
   portal, API, or SDK surface was found.'
 url: https://raw.githubusercontent.com/api-evangelist/pivotal-commware/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
